@@ -1,18 +1,4 @@
 spring:
-  profiles:
-    active: dev
-
-
----
-
-spring:
-  profiles: dev
   application:
+    # 3个服务名称一致是前提
     name: springcloud-config-dev
-
----
-
-spring:
-  profiles: test
-  application:
-    name: springcloud-config-test
