@@ -9,7 +9,6 @@ server:
 spring:
   profiles: dev
   application:
-    # 3个服务名称一致是前提
     name: springcloud-provider-dept
 
 # Eureka配置：配置服务注册中心地址
